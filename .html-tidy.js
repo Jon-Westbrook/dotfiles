@@ -2,7 +2,7 @@ join-classes: no
 logical-emphasis: no
 drop-empty-elements: no
 anchor-as-name: no
-doctype: auto
+doctype: no
 drop-empty-paras: no
 fix-uri: no
 literal-attributes: yes
