@@ -1,38 +1,39 @@
 {
+  "extends": [
+    "eslint:recommended"
+  ],
   "env": {
     "browser": true,
     "es6": true,
     "node": true,
-    "jquery": true
-  },
-  "extends": "eslint:recommended",
-  "parserOptions": {
-    "ecmaVersion": 6,
-    "sourceType": "script",
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true,
-      "impliedStrict": true,
-      "jsx": true
-    }
+    "jquery" : true
   },
   "rules": {
-    "indent": [
-      "error",
-      2
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    //"quotes": [
-    //  "warn",
-    //  "single"
-    //],
-    "semi": [
-      "error",
-      "always"
-    ],
-    "no-console": "warn"
-  }
+    "no-console": "off",
+     "indent": ["error", "tab"],
+    "max-len": ["error", 120, {
+      "ignoreComments": true,
+      "ignoreUrls": true,
+      "tabWidth": 2
+    }],
+    "no-unused-vars": ["off", {
+      "vars": "local",
+      "args": "after-used",
+      "ignoreRestSiblings": true,
+      "argsIgnorePattern": "(^reject$|^_$)",
+      "varsIgnorePattern": "(^_$)"
+    }],
+    "no-undef": "off",
+    "optimize-regex/optimize-regex": "warn",
+    "valid-jsdoc": "off", // it's wrong pretty often
+    "comma-dangle": "off",
+    "strict": "off",
+    "curly": "off",
+    "arrow-parens": ["error", "as-needed"],
+    "no-return-assign": "off",
+    "unicorn/prefer-type-error": "off",
+    "require-jsdoc": "off",
+    "no-implicit-coercion": "off",
+    "capitalized-comments": "warn"
+    }
 }
-
