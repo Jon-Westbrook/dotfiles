@@ -10,7 +10,7 @@
   },
   "rules": {
     "no-console": "off",
-     "indent": ["error", "tab"],
+    "indent": ["error", "tab"],
     "max-len": ["error", 120, {
       "ignoreComments": true,
       "ignoreUrls": true,
@@ -35,5 +35,5 @@
     "require-jsdoc": "off",
     "no-implicit-coercion": "off",
     "capitalized-comments": "warn"
-    }
+  }
 }
