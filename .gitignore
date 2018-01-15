@@ -1,9 +1,7 @@
 .tmp/
 coverage/
 dist/
-dist
 node_modules/
-public
 public/
 build/
 
