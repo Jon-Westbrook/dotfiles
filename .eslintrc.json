@@ -17,7 +17,7 @@
       "ignoreUrls": true,
       "tabWidth": 2
     }],
-    "no-unused-vars": [1, {"vars": "all", "args": "after-used"}],
+    "no-unused-vars": [0, {"vars": "all", "args": "after-used"}],
     "no-undef": "off",
     "valid-jsdoc": "off", // it's wrong pretty often
     "comma-dangle": "off",
@@ -28,7 +28,6 @@
     "unicorn/prefer-type-error": "off",
     "require-jsdoc": "off",
     "no-implicit-coercion": "off",
-    "capitalized-comments": "warn",
     "no-compare-neg-zero": "off",
     "no-useless-escape": "off"
   }
