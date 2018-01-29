@@ -77,7 +77,7 @@
     "selector_separator": " ",
 
     // Separate selectors with newline or not (e.g. "a,\nbr" or "a, br")
-    "selector_separator_newline": true
+    "selector_separator_newline": false
   },
 
   "js":
