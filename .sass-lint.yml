@@ -1,7 +1,7 @@
 options:
   formatter: stylish
 files:
-  include: '**/*.s+(a|c)ss'
+  include: "**/*.s+(a|c)ss"
 rules:
   # Extends
   extends-before-mixins: 1
@@ -24,8 +24,8 @@ rules:
   no-duplicate-properties: 1
   no-empty-rulesets: 1
   no-extends: 0
-  no-ids: 1
-  no-important: 1
+  no-ids: 0
+  no-important: 0
   no-invalid-hex: 1
   no-mergeable-selectors: 1
   no-misspelled-properties: 1
@@ -34,7 +34,7 @@ rules:
   no-trailing-zero: 0
   no-transition-all: 1
   no-url-protocols: 0
-  no-vendor-prefixes: 1
+  no-vendor-prefixes: 0
   no-warn: 1
   property-units: 0
 
@@ -64,7 +64,7 @@ rules:
   leading-zero: 0 # this is broken!!
   nesting-depth: 0
   property-sort-order: 0
-  quotes: 1
+  quotes: 0
   shorthand-values: 1
   url-quotes: 1
   variable-for-property: 1
@@ -81,11 +81,8 @@ rules:
   space-around-operator: 1
 
   # Final Items
-  trailing-semicolon: 1
+  trailing-semicolon: 2
   final-newline: 1
-
-
-
   # bem-depth:
   #   - 0
   #   - max-depth: 1
